@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Cooking Similarity</title>
+
+        <!-- Custom fonts for this template-->
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Page level plugin CSS-->
+        <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+        <!-- Custom styles for this template-->
+        <link href="css/sb-admin.css" rel="stylesheet">
+        
+        
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        
+        <!-- Tangle -->
+        <script type="text/javascript" src="Tangle.js"></script>
+        <script type="text/javascript" src="js/tangleRecette.js"></script>
+
+        <!-- TangleKit -->
+        <link   rel="stylesheet" href="TangleKit/TangleKit.css" type="text/css">
+        <script type="text/javascript" src="TangleKit/mootools.js"></script>
+        <script type="text/javascript" src="TangleKit/sprintf.js"></script>
+        <script type="text/javascript" src="TangleKit/BVTouchable.js"></script>
+        <script type="text/javascript" src="TangleKit/TangleKit.js"></script>
+    </head>
+
+    <body id="page-top" onload="setUpTangle();">
+
+        <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+
+            <a class="navbar-brand mr-1" href="index.html">Cooking Similarity</a>
+
+            <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Navbar Search -->
+            <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <!-- Navbar -->
+            <ul class="navbar-nav ml-auto ml-md-0">
+            </ul>
+
+        </nav>
+
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <ul class="sidebar navbar-nav">
+                <!--  Colonne à gauche-->
+                <!-- Choix de la recette -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Recettes</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                        <a class="dropdown-item" id="tartes" href="#">Tartes</a>
+                        <a class="dropdown-item" id="pizza"href="#">Pizza</a>
+                        <a class="dropdown-item" id="macarons" href="#">Macarons</a>
+                    </div>
+                </li>
+                <!-- Time slider -->
+				<form class="range-field">
+				  <input type="range" min="0" max="100" />
+                </form>
+                <!-- <fieldset> -->
+                    <!-- <legend style="color:white;">sélectionner vos intérêts</legend> -->
+                    <div>
+                        <input type="checkbox" id="sucré" name="interest" value="sucré" checked>
+                        <label for="sucré" style="color:white;">Sucré</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="salé" name="interest" value="salé">
+                        <label for="salé" style="color:white;">Salé</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="végé" name="interest" value="végé">
+                        <label for="végé" style="color:white;">Végétarien</label>
+                    </div>
+                <!-- </fieldset> -->
+
+            </ul>
+
+            <div id="content-wrapper">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="container-fluid">
+                            <!-- Area Chart Example - Tarte 1-->
+                            <div class="card mb-3">
+                                <div class="card-header">
+                                    <i class="fas fa-chart-bar"></i>
+                                    Tarte salée aux tomates et poivrons
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="myBarChart" width="100%" height="30"></canvas>
+                                </div>
+                                <!-- <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div> -->
+                                <div class="card-footer small text-muted">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-info" role="progressbar" style="width: 35%"  title="Temps de préparation" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top">
+                                            <span class="progress-type">35 min</span> <!-- Text  -->
+                                        </div>
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" title="Temps de cuisson" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top">
+                                            <span class="progress-type">20 min</span> <!-- Text  -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Area Chart Example - Tarte 2-->
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <i class="fas fa-chart-bar"></i>
+                                Tarte salée à la ricotta</div>
+                            <div class="card-body">
+                                <canvas id="myBarChart2" width="100%" height="30"></canvas>
+                            </div>
+                            <!-- <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div> -->
+                            <div class="card-footer small text-muted">
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 15%"  title="Temps de préparation" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top">
+                                        <span class="progress-type">15 min</span> <!-- Text  -->
+                                    </div>
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" title="Temps de cuisson" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top">
+                                        <span class="progress-type">45 min</span> <!-- Text  -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <!-- Area Chart Example - Tarte 3-->
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <i class="fas fa-chart-bar"></i>
+                                Tarte salée à la ratatouille et au thon</div>
+                            <div class="card-body">
+                                <canvas id="myBarChart3" width="100%" height="30"></canvas>
+                            </div>
+                            <!-- <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div> -->
+                            <div class="card-footer small text-muted">
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 35%"  title="Temps de préparation" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top">
+                                        <span class="progress-type">35 min</span> <!-- Text  -->
+                                    </div>
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" title="Temps de cuisson" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" data-placement="top">
+                                        <span class="progress-type">20 min</span> <!-- Text  -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sticky Footer -->
+            <footer class="sticky-footer">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Cooking similarity 2019</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        </div>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" href="login.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Page level plugin JavaScript-->
+        <script src="vendor/chart.js/Chart.min.js"></script>
+
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin.min.js"></script>
+
+        <!-- Demo scripts for this page-->
+        <script src="js/demo/chart-area-demo.js"></script>
+        <script src="js/demo/chart-bar-demo.js"></script>
+        <script src="js/demo/chart-pie-demo.js"></script>
+
+    </body>
+
+</html>

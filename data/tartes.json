@@ -1,0 +1,809 @@
+{"recettes":[
+	{ 		"nom": "Tarte salée au chèvre et aux pruneaux",
+			"id":"01",
+			"type": "salé",
+		  "ingredients":
+			{
+				"Légumes et fruits":{
+				"pruneau dénoyautés": "250"
+				},
+				"produits laitiers":{
+				"lait": "10",
+				"cuillères à soupe de crème ": "3",
+				"1 chèvre bûche": "1"
+				},
+				"Condiments":{
+				"Poivre": "1",
+				"Sel": "1",
+				"Thym": "1"
+				},
+				"Viandes,poissons, oeufs":{
+				"lardons": "150",
+				"oeufs": "3"
+				},
+				"Ceréales et féculents":{
+				"pâte feuilletée": "1"
+				}
+			},
+		"ustensiles":
+		[ "1 couteau ",
+			"1 casserole",
+			"1 four",
+			"1 econome ",
+			"1 plat à gratin",
+			"1 pinceau",
+			"1 poele"
+		],
+	  	"tps_cuisson": "30",
+		"tps_preparation": "10",
+		"nombre_personnes":"4",
+		"difficulté":"facile",
+		"source":"https://www.marmiton.org/recettes/recette_tarte-salee-au-chevre-et-aux-pruneaux_22973.aspx",
+		"etapes":
+			[
+				{"identifiant" :"0",
+				"description" : "Etaler la pâte sur le fond de tarte. "
+				},
+
+				{	"identifiant" :"1",
+					"description" : "Recouvrir le fond de chèvre bûche coupé en fines tranches, puis parsemer de thym. "
+				},
+
+				{"identifiant" :"2",
+				"description" : "Faire revenir dans une poêle les lardons et les pruneaux coupés en deux. Lorsqu'ils sont cuits, les répartir uniformément sur le chèvre. "
+				},
+
+				{"identifiant" :"3",
+				"description" : "Ajouter le mélange oeuf, crème, lait salé et poivré. "
+				},
+
+
+				{"identifiant" :"4",
+				"description" : "Faire cuire 25 min, à 200°C (thermostat 7) dans un four à chaleur tournante ou une demi-heure dans un four normal."
+				}
+			]
+		},
+		
+		{ "nom": "Tarte salée à la ratatouille et au thon",
+			"id":"02",
+			"type": "salé",
+			"ingredients":[
+				{
+					"Légumes et fruits":{
+					"sachet de ratatouille congelée": "1",
+					"olives vertes ou noires ":"10"
+
+					},
+					"produits laitiers":{
+						"gruyère":"200",
+						"crème fraiche": "40"
+					},
+					"Condiments":{
+						"Poivre": "1",
+						"Sel": "1",
+						"Herbes de Provence":"1"
+					},
+					"Viandes,poissons, oeufs":{
+						"boîte de thon naturel": "1"
+					},
+					"Ceréales et féculents":{
+						"pâte feuilletée": "1"
+					}
+				}
+			],
+
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "20",
+			"tps_preparation": "60",
+			"nombre_personnes":"4",
+			"difficulté":"moyenne",
+			"source":"https://www.marmiton.org/recettes/recette_tarte-salee-a-la-ratatouille-et-au-thon_19502.aspx",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Faire cuire la ratatouille. Pendant se temps là, couper en morceaux quelques olives (5), dans un bol mélanger le thon (sans l'eau) avec la crème fraîche, le sel, le poivre et une pincée généreuse d'herbes de Provence. "
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Préchauffer votre four à thermostat 7 (210°C). "
+					},
+
+					{"identifiant" :"2",
+					"description" : "Quand les légumes sont bien cuits, ajouter le mélange ainsi que les olives émincées à la ratatouille, mélanger le tout à petit feu. Vous pouvez ajouter 50 g de gruyère râpé à la préparation. "
+					},
+
+					{"identifiant" :"3",
+					"description" : "Dans un plat à tarte, disposer votre pâte feuilletée sur le papier sulfurisé, piquez la pâte avec une fourchette. Verser la préparation sur la pâte. Ensuite disposer le gruyère râpé ou coupé en fines lamelles dessus. Pour décorer saupoudrez des herbes de Provence à la surface, disposer vos olives.  "
+					},
+
+
+					{"identifiant" :"4",
+					"description" : "Quand votre four est chaud, enfournez pour 20 min environ. "
+					}
+				]
+		},
+		
+		{ "nom": "Tarte salée au Boursin",
+			"id":"03",
+			"type": "salé",
+			"ingredients":[
+					{
+					"Légumes et fruits":{
+						"courgettes" :"3",
+						"tomates ": "4"
+					},
+					"produits laitiers":{
+						"gruyère":"200",
+						"crème fraiche": "40",
+						"boursin ail et fine herbe":"0,5"
+
+					},
+					"Condiments":{
+						"Sel": "1"
+					},
+					"Viandes,poissons, oeufs":{
+						"viande de boeuf hachée": "200"
+					},
+					"Ceréales et féculents":{
+						"pâte feuilletée": "1"
+					}
+				}
+			],
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "2",
+			"tps_preparation": "15",
+			"nombre_personnes":"4",
+			"difficulté":"facile",
+			"source":"https://www.marmiton.org/recettes/recette_tarte-salee-au-boursin_69202.aspx",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Dans un premier temps faîtes revenir la viande hachée dans une sauteuse. "
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Pendant ce temps lavez et épluchez les courgettes (laissez la moitié de la peau), ajoutez-les à la viande hachée en les coupant en petits morceaux. "
+					},
+
+					{"identifiant" :"2",
+					"description" : "Faites de même avec les tomates en laissant la peau. "
+					},
+
+					{"identifiant" :"3",
+					"description" : "Laissez cuire environ 15 minutes à couvert."
+					},
+
+
+					{"identifiant" :"4",
+					"description" : "Faites préchauffer votre four à 200°C (thermostat 6/7)et faîtes précuire quelques minutes la pâte préalablement étalée dans le plat à tarte. "
+					},
+					
+					{"identifiant" :"5",
+					"description" : "Pendant ce temps mettez dans un bol le demi Boursin, la crème fraiche et écrasez grossièrement le Boursin, ajoutez le tout dans la sauteuse et mélangez. "
+					},
+
+					{"identifiant" :"6",
+					"description" : "Laissez 5 minutes sans couvrir en remuant de temps à autre. "
+					},
+
+
+					{"identifiant" :"7",
+					"description" : "Sortez la pâte précuite et versez la préparation dans votre plat à tarte. "
+					},
+					
+					{"identifiant" :"8",
+					"description" : "Ajoutez le gruyère rapé et remettez au four une vingtaine de minutes toujours à 200°C. "
+					},
+
+
+					{"identifiant" :"9",
+					"description" : "Dès que la tarte est légèrement dorée, servez aussitôt. "
+					}
+				]
+		},
+		
+		{ "nom": "Tarte salée à la ricotta",
+			"id":"04",
+			"type": "salé",
+			"ingredients":
+			[	{
+					"Légumes et fruits":{
+						"Basilic frais":"1",
+						"tomates ": "2"
+
+					},
+					"produits laitiers":{
+						"pot de ricotta":"250",
+						"boursin ail et fine herbe":"0,5"
+
+					},
+					"Condiments":{
+						"Sel": "1",
+						"Poivre": "1"
+
+					},
+					"Viandes,poissons, oeufs":{
+						"tranches de jambon de parme ": "6",
+						"oeufs" :"2"
+					},
+					"Ceréales et féculents":{
+						"pâte feuilletée": "1"
+					}
+				}
+			],
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "45",
+			"tps_preparation": "15",
+			"nombre_personnes":"4",
+			"difficulté":"facile",
+			"source":"https://www.marmiton.org/recettes/recette_tarte-salee-a-la-ricotta_47663.aspx",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Dérouler la pâte brisée dans un plat à tarte.  "
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Précuire la pâte à blanc, au four pendant environ 10 min, à 150°C (thermostat 5); la sortir du four. "
+					},
+
+					{"identifiant" :"2",
+					"description" : "Dans un saladier, mélanger la ricotta, les oeufs, le basilic coupé en morceaux et le jambon de Parme en fines lamelles; saler et poivrer "
+					},
+
+					{"identifiant" :"3",
+					"description" : "Verser le mélange dans le plat à tarte, et couper de fines tranches de tomates pour recouvrir la tarte. Ajouter également des feuilles de basilic, saler et poivrer à nouveau. "
+					},
+
+
+					{"identifiant" :"4",
+					"description" : "Enfourner le tout pendant 45 min, à 150°C (th 5), il faut que la ricotta s'épaississe."
+					}
+				]
+		},
+		
+		{ "nom": "Tarte végétarienne Dida",
+			"id":"05",
+			"type": "végétarienne",
+			"ingredients":
+			[	{
+					"Légumes et fruits":{
+						"Basilic frais":"1",
+						"tomates ": "3",
+						"oignons":"1",
+						"courgette ":"1"
+					},
+					"produits laitiers":{
+						"Parmesan ":"1",
+						"crème liquide ":"20",
+						"lait":"5"
+					},
+					"Condiments":{
+						"Sel": "1",
+						"Poivre": "1"
+
+					},
+					"Viandes,poissons, oeufs":{
+						"oeufs" :"3"
+					},
+					"Ceréales et féculents":{
+						"pâte feuilletée": "1",
+						"cuillères à soupe de farine ":"2",
+						"pommes de terre nouvelles": "3"
+					},
+					"Liquides":{
+						"Huile d'olive":"1"
+					}
+				}
+			],
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "30",
+			"tps_preparation": "30",
+			"nombre_personnes":"4",
+			"difficulté":"moyenne",
+			"source":"https://www.marmiton.org/recettes/recette_tarte-vegetarienne-dida_58522.aspx",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Pas la peine de préchauffer votre four."
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Coupez la courgette et l'oignon en fines lamelles. Les faire blondir 5 minutes à la poêle avec un filet d'huile d'olive. "
+					},
+
+					{"identifiant" :"2",
+					"description" : "Epluchez et coupez les pommes de terre en lamelles et les faire cuire à la vapeur 10 minutes. "
+					},
+
+					{"identifiant" :"3",
+					"description" : "Préparez votre appareil dans un saladier en battant les 3 oeufs, pour ensuite y ajouter 2 cuillères à soupe de farine, puis le lait et la crème liquide. Mélangez. Salez, poivrez. "
+					},
+
+
+					{"identifiant" :"4",
+					"description" : "Déposez la pâte feuilletée sur le moule à tarte et faire des trous un peu partout avec l'aide d'une fourchette."
+					},
+					
+					{"identifiant" :"5",
+					"description" : "Disposez d'abord vos lamelles de pommes de terre sur la pâte. Puis les oignons et les courgettes émincés, et terminez par les tomates que vous aurez coupées elles aussi en fines tranches. "
+					},
+					
+					{"identifiant" :"6",
+					"description" : "Ajoutez l'appareil et parsemez le tout avec du bon parmesan râpé. "
+					},
+
+
+					{"identifiant" :"7",
+					"description" : "Enfournez et laissez cuire pendant 30 minutes environ. "
+					},
+					
+					{"identifiant" :"8",
+					"description" : "REGALEZ-VOUS !!!! "
+					}
+				]
+		},
+		
+		{ "nom": "Tarte végétarienne aux aubergines et courgettes",
+			"id":"06",
+			"type": "végétarien",
+			"ingredients":
+			[	{
+					"Légumes et fruits":{
+						"Basilic frais":"1",
+						"tomates ": "3",
+						"oignons":"1",
+						"courgette ronde ":"1",
+						"aubergine ":"1"
+					},
+					"produits laitiers":{
+						" boule de mozzarella ":"1",
+						"crème liquide ":"20",
+						"lait":"5"
+					},
+					"Condiments":{
+						"Sel": "1",
+						"Poivre": "1",
+						"Curry fort ou 4 épices":"1",
+						"gousses d'ail hachées":"2",
+						"Herbes de Provence":"1",
+						"beurre mou":"150"
+					},
+					"Viandes,poissons, oeufs":{
+						"oeufs" :"3"
+					},
+					"Ceréales et féculents":{
+						"farine  ": "300"
+
+					},
+					"Liquides":{
+						"Huile d'olive":"1",
+						"eau":"5"	
+					}
+				}
+			],	
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "20",
+			"tps_preparation": "60",
+			"nombre_personnes":"4",
+			"difficulté":"facile",
+			"source":"https://www.marmiton.org/recettes/recette_tarte-vegetarienne-aux-aubergines-et-courgettes_23076.aspx",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Dans un saladier, mélanger la farine et le beurre bien mou, puis ajouter l'eau. Vous obtiendrez une pâte à laisser reposer 1 heure au moins. "
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Important : travailler la pâte assez vite, pour éviter qu'elle ne soit friable au final. "
+					},
+
+					{"identifiant" :"2",
+					"description" : "Hacher finement l'oignon, l'ail et couper les tomates en petits dés. Dans une sauteuse, faire blondir l'oignon dans 4 cuillères à soupe d'huile d'olive, puis ajouter les tomates et l'ail. Remuer et ajouter une grosse cuillère à soupe d'herbes de Provence, une cuillère à café de curry fort ou de 4 épices, du sel et du poivre. Couvrir et laisser mijoter à feu doux une bonne demi-heure. "
+					},
+
+					{"identifiant" :"3",
+					"description" : "Couper en rondelles fines la courgette et l'aubergine. Les faire revenir 5 mn dans 2 cuillères à soupe d'huile d'olive. Les retirer de la poêle et réserver. "
+					},
+
+
+					{"identifiant" :"4",
+					"description" : "Préchauffer le four à 220°C. Etaler la pâte et en tapisser un moule à tarte de 30 cm de diamètre environ, préalablement beurré. "
+					},
+					
+					{"identifiant" :"5",
+					"description" : "Etaler sur le fond la sauce à la tomate en répartissant bien. Disposer par dessus les rondelles de courgette et d'aubergine, en alternant. "
+					},
+
+
+					{"identifiant" :"6",
+					"description" : "Couper des tranches fines dans la mozzarella, et les ajouter sur la tarte. Saupoudrer d'herbes de Provence, saler, poivrer, et ajouter un filet d'huile d'olive. "
+					},
+					
+					{"identifiant" :"7",
+					"description" : "Cuire 20 à 30 mn dans le four. "
+					}
+				]
+		},
+		
+		
+		{ "nom": "Tarte provençale végétarienne tomates séchées-fêta",
+			"id":"07",
+			"type": "végétarien",
+			"ingredients":
+			[	{
+					"Légumes et fruits":{
+						"Basilic frais":"1",
+						"tomate séchée":"150",
+						"oignons":"2",
+						"olives vertes dénoyautées" :"12",
+						"champignon de Paris émincés": "250",
+						"tomates ": "3"
+
+					},
+					"produits laitiers":{
+						"feta ":"100",
+						"crème liquide ":"20",
+						"lait":"5"
+					},
+					"Condiments":{
+						"Sel": "1",
+						"Poivre": "1",
+						"cuillères à café de moutarde ":"2",
+						"beurre mou":"150"
+					},
+					"Viandes,poissons, oeufs":{
+						"oeufs" :"3"
+					},
+					"Ceréales et féculents":{
+						"pâte feuilletée": "1",
+						"Pignons ou grains de sésame":"1"
+
+					}
+				}
+			],
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "30",
+			"tps_preparation": "10",
+			"nombre_personnes":"6",
+			"difficulté":"facile",
+			"source":"https://www.marmiton.org/recettes/recette_tarte-provencale-vegetarienne-tomates-sechees-feta_54726.aspx",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Préchauffez 10 min votre four à 220°C (thermostat 7-8). "
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Beurrez votre moule à tarte et disposez votre pâte brisée. "
+					},
+
+					{"identifiant" :"2",
+					"description" : "Piquez-la à la fourchette et étalez une fine couche de moutarde."
+					},
+
+					{"identifiant" :"3",
+					"description" : "Dans une poêle, faites revenir à feu moyen vos oignons épluchés et émincés avec une noisette de beurre et un filet d'huile d'olive. "
+					},
+
+
+					{"identifiant" :"4",
+					"description" : "Egouttez vos champignons (s'ils sont en boîte) et rajoutez-les aux oignons légérement tendres pendant 3/4 min (salez et poivrez). "
+					},
+					
+					{"identifiant" :"5",
+					"description" : "Coupez en 2 ou 3 les demi-tranches de tomates séchées égouttées (pour éviter d'avoir de trop gros morceaux, c'est bien meilleur ainsi). "
+					},
+
+
+					{"identifiant" :"6",
+					"description" : "Disposez pêle-mêle votre préparation oignons-champignons avec les tomates séchées sur votre fond de tarte. "
+					},
+					
+					{"identifiant" :"7",
+					"description" : "Ecrasez à la fourchette votre fêta et parsemez-en votre tarte. "
+					},
+					{"identifiant" :"8",
+					"description" : "Ajoutez une douzaine d'olives vertes, des pignons ou des grains de sésame."
+					},
+					{"identifiant" :"9",
+					"description" : "Enfournez 30 min à 210°C (thermostat 7) et dégutez chaud, avec une salade."
+					}
+				]
+		},
+		
+		{ "nom": "Tarte aux pommes",
+			"id":"08",
+			"type": "sucré",
+			"ingredients":
+			[	{
+					"Légumes et fruits":{
+						"pommes": "3",
+						"compote de pommes": "300"
+					},
+					"produits laitiers":{
+						"feta ":"100",
+						"crème liquide ":"20",
+						"lait":"5"
+					},
+					"Condiments":{
+						"beurre":"20",
+						"cuillères à soupe de sucre roux":"2"
+					},
+					"Ceréales et féculents":{
+						"pâte feuilletée": "1"
+					}
+				}
+			],
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "30",
+			"tps_preparation": "15",
+			"nombre_personnes":"4",
+			"difficulté":"facile",
+			"source":"https://www.750g.com/tarte-aux-pommes-r99700.htm",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Préchauffez le four à 200°C. Disposez la pâte brisée dans un moule à tarte et piquez le fond de tarte avec une fourchette. Placez l'ensemble au frigo le temps que vous prépariez les pommes."
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Epluchez les pommes et coupez-les en tranches d'environ 3 mm d'épaisseur."
+					},
+
+					{"identifiant" :"2",
+					"description" : "Disposez une couche de compote de pommes sur le fond de tarte."
+					},
+
+					{"identifiant" :"3",
+					"description" : "Puis disposez les pommes en cercle sur le fond de tarte. Veillez à les disposer joliment."
+					},
+
+
+					{"identifiant" :"4",
+					"description" : "Ajoutez quelques noix de beurre sur les pommes."
+					},
+					
+					{"identifiant" :"5",
+					"description" : "Saupoudrez les pommes de 2 c à s de sucre roux."
+					},
+
+
+					{"identifiant" :"6",
+					"description" : "Enfournez 30 minutes à 200°C. Dégustez tiède ou froid, accompagnée d'une boule de glace vanille pour les plus gourmands."
+					}
+				]
+		},
+		
+		{ "nom": "Tarte au citron et sa meringue dorée au four",
+			"id":"09",
+			"type": "sucré",
+			"ingredients":[
+				{
+					"Légumes et fruits":{
+						"Zestes très fins de citron Bio":"1"
+					},
+					"Condiments":{
+						"beurre":"50",
+						"sucre en poudre":"150",
+						"sel":"1",
+						"sucre semoule": "150",
+						"Cuillère à soupe de Maïzena":"1"
+					},
+					"Viandes,poissons, oeufs":{
+						"Oeufs":"2",
+						"Jaune d'oeuf":"1",
+						"blancs d'œuf":"3"
+					},
+					"Ceréales et féculents":{
+						"pâte sablée": "1"
+					},
+					"Liquides":{
+						"jus de citron": "15"
+					}
+				}
+			],
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "25",
+			"tps_preparation": "30",
+			"nombre_personnes":"4",
+			"difficulté":"moyenne",
+			"source":"https://www.750g.com/tarte-au-citron-meringuee-r99709.htm",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Dans un saladier, cassez 2 oeufs entiers & 1 jaune d'oeuf."
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Ajoutez 150g de sucre semoule et mélangez au fouet."
+					},
+
+					{"identifiant" :"2",
+					"description" : "Ajoutez 15 cl de jus de citron et mélangez."
+					},
+
+					{"identifiant" :"3",
+					"description" : "Ajoutez également les zestes d'un citron Bio. Mélangez."
+					},
+
+
+					{"identifiant" :"4",
+					"description" : "Ajoutez 1 c à s de Maïzena et mélangez."
+					},
+					
+					{"identifiant" :"5",
+					"description" : "Placez la préparation au bain-marie. Attention que l'eau ne soit pas en contact avec le saladier contenant la préparation."
+					},
+
+
+					{"identifiant" :"6",
+					"description" : "Sur feu doux et en remuant constamment, faites chauffer la crème sans cesser de remuer jusquâ??à épaississement."
+					},
+					{"identifiant" :"7",
+						"description" : "Eteignez le feu aux premières ébullitions."
+					},
+	
+					{"identifiant" :"8",
+						"description" : "Ajoutez le beurre en morceaux en mélangeant bien pour bien le répartir à la préparation. Filmez la crème au contact, c'est à dire que le papier alimentaire doit toucher la crème. Cela permet d'éviter que la crème ne se dessèche et forme une croûte."
+					},
+	
+	
+					{"identifiant" :"9",
+						"description" : "Préchauffez le four à 180°C. Etalez la pâte sablée sur dans un moule à tarte beurré. Piquez la pâte à l'aide d'une fourchette."
+					},
+						
+					{"identifiant" :"10",
+						"description" : "Recouvrez la pâte avec une feuille de papier sulfurisé. Déposez des haricots secs pour éviter que la pâte ne gonfle à la cuisson.Enfournez la pâte à tarte à blanc pendant 20 à 30 minutes.."
+					},
+
+					{"identifiant" :"11",
+						"description" : "Laissez refroidir le fond de tarte puis garnissez-la de crème au citron froide."
+					},
+
+					{"identifiant" :"12",
+						"description" : "Préparez la meringue : battez 3 blancs d'oeuf en neige assez ferme avec une pincée de sel, puis ajoutez 150g de sucre en pluie en fouettant. Continuez de fouettez pendant 3 minutes."
+					},
+	
+					{"identifiant" :"13",
+						"description" : "Placez la meringue dans une poche à douille ou un sac congélation si vous n'avez pas de poche à douille."
+					},
+	
+					{"identifiant" :"14",
+						"description" : "Disposez la meringue sur la tarte au citron."
+					},
+						
+					{"identifiant" :"15",
+						"description" : "Avec un chalumeau ou avec le grill de votre four, dorez le dessus de la meringue (environ 3 min au four)."
+					},
+
+					{"identifiant" :"16",
+						"description" : "Décorez avec quelques sommités de menthe avant de déguster."
+					}
+
+				]
+		},
+		{ "nom": "Tarte aux framboises",
+			"id":"10",
+			"type": "sucré",
+			"ingredients":
+			[	{
+					"Légumes et fruits":{
+						"framboises mûres et parfumées": "750",
+						"feuilles de menthe": "1"
+					},
+					"produits laitiers":{
+						"crème fraîche":"20"
+					},
+					"Condiments":{
+						"Cuillère à soupe de sucre en poudre":"3",
+						"sachet de sucre vanillé":"1"
+					},
+					"Viandes,poissons, oeufs":{
+						"Oeufs":"2"
+					},
+					"Ceréales et féculents":{
+						"pâte sablée": "1"
+					}
+				}
+			],
+			"ustensiles":
+			[ "1 couteau ",
+				"1 casserole",
+				"1 four",
+				"1 econome ",
+				"1 plat à gratin",
+				"1 pinceau",
+				"1 poele"
+			],
+			"tps_cuisson": "35",
+			"tps_preparation": "20",
+			"nombre_personnes":"6",
+			"difficulté":"facile",
+			"source":"https://www.750g.com/tarte-aux-framboises-r2058.htm",
+			"etapes":
+				[
+					{"identifiant" :"0",
+					"description" : "Foncez de pâte votre moule. Préparer la garniture : travaillez les oeufs avec le sucre, le sucre vanillé et la crème fraîche. Versez cette préparation sur la pâte crue."
+					},
+
+					{	"identifiant" :"1",
+						"description" : "Faites cuire à four modéré à180°C. Vérifier la cuisson de la pâte avant de retirer du four."
+					},
+
+					{"identifiant" :"2",
+					"description" : "Pendant la cuisson, lavez les framboises, séchez-les et équeutez-les. Lorsque la tarte est presque froide, versez les framboises sur la pâte en les serrant bien."
+					},
+
+					{"identifiant" :"3",
+					"description" : "Laissez reposer une heure pour que les framboises parfume la crème. Au moment de servir, posez les quelques feuilles de menthe sur la tarte."
+					}
+				]
+		}
+	]
+}
+		
